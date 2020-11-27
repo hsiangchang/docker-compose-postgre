@@ -10,6 +10,7 @@
 * 請先準備好 docker , docker-compose 的執行環境
 * **範例資料庫帳號密碼：admin/123456**
 
+---
 **1. 撰寫 docker-compose.yml 檔案**
 ```yml
 version: '3.1'
@@ -48,6 +49,8 @@ services:
 
 <br />
 <br />
+
+---
 
 **2. 在 docker-compose.yml 的同一層資料夾下，執行指令**
 ```sh
