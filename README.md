@@ -3,7 +3,6 @@
 
 ---
 <br />
-<br />
 
 ## 注意
 
@@ -50,7 +49,6 @@ services:
 <br />
 <br />
 
----
 
 **2. 在 docker-compose.yml 的同一層資料夾下，執行指令**
 ```sh
@@ -60,8 +58,7 @@ $ docker-compose up
 ![Alt text](./assets/001.png)
 
 
-```console
-
-docker-compose up -d
-
+## 補充：若想在背景執行，則改為以下指令
+```sh
+$ docker-compose up -d
 ```
